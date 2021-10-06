@@ -32,10 +32,6 @@ function RenderCampsite(props) {
     return <View />;
 }
 
-
-
-
-
 function RenderComments({comments}) {
 
     const renderCommentItem = ({item}) => {
@@ -58,8 +54,6 @@ function RenderComments({comments}) {
         </Card>
     );
 }
-
-
 
 class CampsiteInfo extends Component {
 
