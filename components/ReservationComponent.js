@@ -50,7 +50,7 @@ class Reservation extends Component {
         this.setState({
             campers: 1,
             hikeIn: false,
-            date: '',
+            date: new Date(),
            showCalendar: false
         });
     }
